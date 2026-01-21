@@ -1,0 +1,51 @@
+# Crear o editar el .gitignore
+nano .gitignore
+```
+
+Pega esto dentro:
+```
+# Credenciales y configuración sensible
+controllers/google_config.php
+config.php
+.env
+*.key
+*.pem
+
+# Carpetas de dependencias
+vendor/
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de log
+*.log
+error_log
+access_log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Archivos de base de datos
+*.sql
+*.sqlite
+*.db
+
+# Archivos subidos por usuarios (opcional)
+uploads/
+files/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-*
+.project
+
+# Sistema usuarios (tu archivo específico)
+sistema usuarios
