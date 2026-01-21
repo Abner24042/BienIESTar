@@ -183,10 +183,10 @@ footer {
 <header>
     <h1><b>BIEN<span>IEST</span>AR</b></h1>
     <div class="navbar-links">
-        <a href="../view\auth\login.php" class="<?= $paginaActual == 'alimentacion.php' ? 'activo' : '' ?>">Alimentación</a>
-        <a href="../view\auth\login.php" class="<?= $paginaActual == 'saludmental.php' ? 'activo' : '' ?>">Salud Mental</a>
-        <a href="../view\auth\login.php" class="<?= $paginaActual == 'ejercicio.php' ? 'activo' : '' ?>">Ejercicio</a>
-        <a href="../view\auth\login.php" class="<?= $paginaActual == 'noticias.php' ? 'activo' : '' ?>">Noticias</a>
+        <a href="/view\auth\login.php" class="<?= $paginaActual == 'alimentacion.php' ? 'activo' : '' ?>">Alimentación</a>
+        <a href="/view\auth\login.php" class="<?= $paginaActual == 'saludmental.php' ? 'activo' : '' ?>">Salud Mental</a>
+        <a href="/view\auth\login.php" class="<?= $paginaActual == 'ejercicio.php' ? 'activo' : '' ?>">Ejercicio</a>
+        <a href="/view\auth\login.php" class="<?= $paginaActual == 'noticias.php' ? 'activo' : '' ?>">Noticias</a>
     </div>
 </header>
 
@@ -194,16 +194,16 @@ footer {
 <div class="container">
     <!-- Aquí inicia el contenido visual de la página -->
     <div class="grid">
-    <button class="card-button" onclick="window.location.href='../view/auth/login.php'">
-            <img src="../img\frenchlp1.png" alt="French Toast">
+    <button class="card-button" onclick="window.location.href='/view/auth/login.php'">
+            <img src="/img\frenchlp1.png" alt="French Toast">
             <p>FRENCH TOAST</p>
         </button>
-        <button class="card-button" onclick="window.location.href='../view/auth/login.php'">
-            <img src="../img\calabazalp2.png" alt="Calabacitas">
+        <button class="card-button" onclick="window.location.href='/view/auth/login.php'">
+            <img src="/img\calabazalp2.png" alt="Calabacitas">
             <p>CALABACITAS CON TANTITA QUESITO Y VERDURAS</p>
         </button>
-        <button class="card-button" onclick="window.location.href='../view/auth/login.php'">
-            <img src="../img\tacuacheslp3.png" alt="Tacos de pescado">
+        <button class="card-button" onclick="window.location.href='/view/auth/login.php'">
+            <img src="/img\tacuacheslp3.png" alt="Tacos de pescado">
             <p>TACOS DE PESCADO</p>
         </button>
     </div>
@@ -219,17 +219,17 @@ footer {
             <p>Este test es útil para cualquier persona interesada en conocer más sobre su mundo interior, mejorar su bienestar emocional o desarrollar su crecimiento personal.</p>
             <button onclick="location.href='../view/auth/login.php'">Realizar Test</button>
         </div>
-        <img src="../img\psicologialp1.png" alt="Test Psicológico">
+        <img src="/img\psicologialp1.png" alt="Test Psicológico">
     </div>
 
     <h2>Ejercicios del Día</h2>
     <div class="grid">
-    <button class="card-button" onclick="window.location.href='../view/auth/login.php'">
-        <img src="../img\imagen_ejercicio_lp1.png" alt="Cuerpo Completo - Rutina 7 Min">
+    <button class="card-button" onclick="window.location.href='/view/auth/login.php'">
+        <img src="/img\imagen_ejercicio_lp1.png" alt="Cuerpo Completo - Rutina 7 Min">
         <p>CUERPO COMPLETO - RUTINA 7 MIN</p>
     </button>
-    <button class="card-button" onclick="window.location.href='../view/auth/login.php'">
-        <img src="../img\imagen_ejercicio_lp2.png" alt="Cardio en casa sin equipo">
+    <button class="card-button" onclick="window.location.href='/view/auth/login.php'">
+        <img src="/img\imagen_ejercicio_lp2.png" alt="Cardio en casa sin equipo">
         <p>CARDIO EN CASA SIN EQUIPO</p>
     </button>
 </div>
